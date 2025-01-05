@@ -1,5 +1,7 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
 title: Kicad Snippets
@@ -20,3 +22,4 @@ abstract: >-
   A repository of working schematics for commonly used
   electrical components in PCB design
 license: CERN-OHL-S-2.0
+date-released: '2025-01-05'
