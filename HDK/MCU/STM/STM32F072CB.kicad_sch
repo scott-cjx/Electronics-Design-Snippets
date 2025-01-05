@@ -1523,6 +1523,142 @@
 				)
 			)
 		)
+		(symbol "scottcjx-common-parts:100nF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100nF_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100nF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 39.37 30.48)
@@ -2387,6 +2523,7 @@
 	(hierarchical_label "PB6"
 		(shape bidirectional)
 		(at 33.02 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2398,6 +2535,7 @@
 	(hierarchical_label "PA9"
 		(shape bidirectional)
 		(at 68.58 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2409,6 +2547,7 @@
 	(hierarchical_label "PB14"
 		(shape bidirectional)
 		(at 33.02 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2420,6 +2559,7 @@
 	(hierarchical_label "PA5"
 		(shape bidirectional)
 		(at 68.58 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2431,6 +2571,7 @@
 	(hierarchical_label "PB10"
 		(shape bidirectional)
 		(at 33.02 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,6 +2583,7 @@
 	(hierarchical_label "PA2"
 		(shape bidirectional)
 		(at 68.58 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2453,6 +2595,7 @@
 	(hierarchical_label "PB0"
 		(shape bidirectional)
 		(at 33.02 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2464,6 +2607,7 @@
 	(hierarchical_label "PB4"
 		(shape bidirectional)
 		(at 33.02 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2475,6 +2619,7 @@
 	(hierarchical_label "PA13"
 		(shape bidirectional)
 		(at 68.58 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2486,6 +2631,7 @@
 	(hierarchical_label "PC15"
 		(shape bidirectional)
 		(at 33.02 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2497,6 +2643,7 @@
 	(hierarchical_label "BOOT0"
 		(shape input)
 		(at 33.02 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2508,6 +2655,7 @@
 	(hierarchical_label "PA4"
 		(shape bidirectional)
 		(at 68.58 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2519,6 +2667,7 @@
 	(hierarchical_label "PA11"
 		(shape bidirectional)
 		(at 68.58 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,6 +2679,7 @@
 	(hierarchical_label "PA7"
 		(shape bidirectional)
 		(at 68.58 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2541,6 +2691,7 @@
 	(hierarchical_label "PA1"
 		(shape bidirectional)
 		(at 68.58 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,6 +2703,7 @@
 	(hierarchical_label "PA8"
 		(shape bidirectional)
 		(at 68.58 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2563,6 +2715,7 @@
 	(hierarchical_label "PB5"
 		(shape bidirectional)
 		(at 33.02 92.71 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2574,6 +2727,7 @@
 	(hierarchical_label "PB3"
 		(shape bidirectional)
 		(at 33.02 87.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2585,6 +2739,7 @@
 	(hierarchical_label "PA0"
 		(shape bidirectional)
 		(at 68.58 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,6 +2751,7 @@
 	(hierarchical_label "PA10"
 		(shape bidirectional)
 		(at 68.58 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2607,6 +2763,7 @@
 	(hierarchical_label "PB15"
 		(shape bidirectional)
 		(at 33.02 118.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,6 +2775,7 @@
 	(hierarchical_label "PA6"
 		(shape bidirectional)
 		(at 68.58 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,6 +2787,7 @@
 	(hierarchical_label "PB7"
 		(shape bidirectional)
 		(at 33.02 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,6 +2799,7 @@
 	(hierarchical_label "PB12"
 		(shape bidirectional)
 		(at 33.02 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,6 +2811,7 @@
 	(hierarchical_label "PB8"
 		(shape bidirectional)
 		(at 33.02 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,6 +2823,7 @@
 	(hierarchical_label "PB1"
 		(shape bidirectional)
 		(at 33.02 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,6 +2835,7 @@
 	(hierarchical_label "PA15"
 		(shape bidirectional)
 		(at 68.58 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,6 +2847,7 @@
 	(hierarchical_label "PF1"
 		(shape bidirectional)
 		(at 33.02 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,6 +2859,7 @@
 	(hierarchical_label "PA12"
 		(shape bidirectional)
 		(at 68.58 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,6 +2871,7 @@
 	(hierarchical_label "PC13"
 		(shape bidirectional)
 		(at 33.02 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,6 +2883,7 @@
 	(hierarchical_label "PB9"
 		(shape bidirectional)
 		(at 33.02 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2728,6 +2895,7 @@
 	(hierarchical_label "PC14"
 		(shape bidirectional)
 		(at 33.02 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,6 +2907,7 @@
 	(hierarchical_label "PF0"
 		(shape bidirectional)
 		(at 33.02 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,6 +2919,7 @@
 	(hierarchical_label "PB11"
 		(shape bidirectional)
 		(at 33.02 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2761,6 +2931,7 @@
 	(hierarchical_label "PA14"
 		(shape bidirectional)
 		(at 68.58 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,6 +2943,7 @@
 	(hierarchical_label "PB13"
 		(shape bidirectional)
 		(at 33.02 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2783,6 +2955,7 @@
 	(hierarchical_label "PA3"
 		(shape bidirectional)
 		(at 68.58 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,6 +2967,7 @@
 	(hierarchical_label "~{NRST}"
 		(shape input)
 		(at 33.02 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,6 +2979,7 @@
 	(hierarchical_label "PB2"
 		(shape bidirectional)
 		(at 33.02 85.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2879,7 +3054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "scottcjx-common-parts:100nF")
 		(at 39.37 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2923,7 +3098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 39.37 25.4 0)
 			(effects
 				(font
@@ -3052,7 +3227,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "scottcjx-common-parts:100nF")
 		(at 59.69 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3096,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 59.69 25.4 0)
 			(effects
 				(font
@@ -3148,7 +3323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "scottcjx-common-parts:100nF")
 		(at 49.53 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3192,7 +3367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -3244,7 +3419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "scottcjx-common-parts:100nF")
 		(at 69.85 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3288,7 +3463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 69.85 25.4 0)
 			(effects
 				(font
@@ -3340,7 +3515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "scottcjx-common-parts:100nF")
 		(at 29.21 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3384,7 +3559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 29.21 25.4 0)
 			(effects
 				(font
